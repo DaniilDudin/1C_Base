@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db45b702-7579-4f4f-8d9f-158a69fbefea">
+  <producedTypes>
+    <objectType typeId="fd296ef9-86d7-4038-82d4-e26f8a971f40" valueTypeId="e6765564-d0ae-42de-9c8a-928fe7151f7d"/>
+    <managerType typeId="191a3b34-1ea2-4f19-bbbb-0d70edce186c" valueTypeId="19eaaf3d-4e19-46ae-a92a-1bce1478c4bb"/>
+  </producedTypes>
+  <name>ВыручкаМастеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выручка мастеров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ВыручкаМастеров.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="b6ec9776-fd70-403c-be3d-bb1ffb17d7ce">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

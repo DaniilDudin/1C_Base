@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb78feab-cb43-4adb-b5ab-97dbd2a33ba2">
+  <name>ОбновлениеИндекса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление индекса</value>
+  </synonym>
+  <methodName>CommonModule.РегламентныеПроцедуры.ОбновлениеИндекса</methodName>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

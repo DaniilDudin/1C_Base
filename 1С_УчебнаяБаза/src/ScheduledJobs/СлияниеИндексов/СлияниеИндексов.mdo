@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="105bdaa8-c7ef-4d3b-9fdd-d267f9c05387">
+  <name>СлияниеИндексов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Слияние индексов</value>
+  </synonym>
+  <methodName>CommonModule.РегламентныеПроцедуры.СлияниеИндексов</methodName>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>
